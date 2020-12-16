@@ -1,0 +1,12 @@
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/bin/Debug/net5.0/todo_clean.shared.deps.json
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/bin/Debug/net5.0/todo_clean.shared.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/bin/Debug/net5.0/ref/todo_clean.shared.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/bin/Debug/net5.0/todo_clean.shared.pdb
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.csprojAssemblyReference.cache
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.AssemblyInfoInputs.cache
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.AssemblyInfo.cs
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.csproj.CoreCompileInputs.cache
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/ref/todo_clean.shared.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.pdb

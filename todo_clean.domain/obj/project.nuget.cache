@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "esIsibRBLpE5+4ae67X1ha6HbBKdSmppB4HXssiIRa3BxIhGvEiswfOj1XjWkGWzUUNJXYM16grlYQJa0UP+mg==",
+  "success": true,
+  "projectFilePath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/vitoramerico/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

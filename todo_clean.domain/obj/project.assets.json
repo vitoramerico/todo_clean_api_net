@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Flunt/1.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
+      "todo_clean.infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "todo_clean.shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/todo_clean.infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/todo_clean.infra.dll": {}
+        }
+      },
+      "todo_clean.shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Flunt": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/todo_clean.shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/todo_clean.shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Flunt/1.0.5": {
+      "sha512": "2p1B/LLsMf0bGwyMQK48/278OXTodXn3HyTU1v7fr/x0bNfrVSNC1Do1PxbgiOlDLChtAbtt1kPgXFqUnGAagg==",
+      "type": "package",
+      "path": "flunt/1.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.5.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
+    "todo_clean.infra/1.0.0": {
+      "type": "project",
+      "path": "../todo_clean.infra/todo_clean.infra.csproj",
+      "msbuildProject": "../todo_clean.infra/todo_clean.infra.csproj"
+    },
+    "todo_clean.shared/1.0.0": {
+      "type": "project",
+      "path": "../todo_clean.shared/todo_clean.shared.csproj",
+      "msbuildProject": "../todo_clean.shared/todo_clean.shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Flunt >= 1.0.5",
+      "todo_clean.infra >= 1.0.0",
+      "todo_clean.shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/vitoramerico/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
+      "projectName": "todo_clean.domain",
+      "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
+      "packagesPath": "/Users/vitoramerico/.nuget/packages/",
+      "outputPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/vitoramerico/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {
+              "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj"
+            },
+            "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj": {
+              "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[1.0.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
