@@ -10,21 +10,21 @@ namespace todo_clean.domain.commands.handlers
 {
     public class CustomerCommandHandler : Notifiable, ICommandHandler<AddCustomerCommand>
     {
-        //public readonly ICustomerRepository _customerRepository;
+        public readonly ICustomerRepository _customerRepository;
 
-        public CustomerCommandHandler()
+        public CustomerCommandHandler(ICustomerRepository customerRepository)
         {
-            //_customerRepository = customerRepository;
+            _customerRepository = customerRepository;
         }
 
         public ICommandResult Handle(AddCustomerCommand command)
         {
             // Verificar se o CPF já existe
-            /*if (_customerRepository.checkDocumentExists(command.documentNumber))
+            if (_customerRepository.checkDocumentExists(command.documentNumber))
             {
                 AddNotification("Document", "Este CPF já está em uso!");
                 return null;
-            }*/
+            }
 
             // Gerar o novo cliente
             var document = new DocumentVo(command.documentNumber);
@@ -49,7 +49,7 @@ namespace todo_clean.domain.commands.handlers
                 return null;
 
             // Inserir no banco
-            //_customerRepository.Save(customer);
+            _customerRepository.save(customer);
 
             // Enviar E-mail de boas vindas     
             /*_emailService.Send(

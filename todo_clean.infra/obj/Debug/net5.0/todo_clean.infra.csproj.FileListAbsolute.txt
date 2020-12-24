@@ -13,3 +13,5 @@
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/bin/Debug/net5.0/todo_clean.shared.dll
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/bin/Debug/net5.0/todo_clean.shared.pdb
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/obj/Debug/net5.0/todo_clean.infra.csproj.CopyComplete
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/bin/Debug/net5.0/todo_clean.domain.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/bin/Debug/net5.0/todo_clean.domain.pdb

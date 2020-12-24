@@ -11,7 +11,7 @@ using todo_clean.domain.commands.inputs;
 namespace todo_clean.api.Controllers
 {
     [ApiController]
-    [Route("v1/customers")]
+    [Route("customers")]
     public class CustomerController : ControllerBase
     {
         private readonly CustomerCommandHandler _handler;
@@ -22,7 +22,7 @@ namespace todo_clean.api.Controllers
         }
 
         [HttpPost]
-        [Route("add")]
+        [Route("v1/add")]
         [ProducesResponseType(typeof(CustomErrorResult), (int)HttpStatusCode.BadRequest)]
         [ProducesResponseType(typeof(CustomSuccessResult), (int)HttpStatusCode.OK)]
         public ActionResult add([FromBody] AddCustomerCommand command)

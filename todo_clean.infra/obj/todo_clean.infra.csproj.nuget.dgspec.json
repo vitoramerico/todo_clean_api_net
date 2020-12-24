@@ -4,14 +4,14 @@
     "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {}
   },
   "projects": {
-    "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {
+    "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj",
-        "projectName": "todo_clean.infra",
-        "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj",
+        "projectUniqueName": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
+        "projectName": "todo_clean.domain",
+        "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
         "packagesPath": "/Users/vitoramerico/.nuget/packages/",
-        "outputPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/obj/",
+        "outputPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vitoramerico/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,77 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj",
+        "projectName": "todo_clean.infra",
+        "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj",
+        "packagesPath": "/Users/vitoramerico/.nuget/packages/",
+        "outputPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vitoramerico/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj": {
+                "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj"
+              },
+              "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj": {
+                "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

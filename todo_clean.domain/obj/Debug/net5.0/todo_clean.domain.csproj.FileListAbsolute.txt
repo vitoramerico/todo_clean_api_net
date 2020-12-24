@@ -10,8 +10,6 @@
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/Debug/net5.0/todo_clean.domain.dll
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/Debug/net5.0/ref/todo_clean.domain.dll
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/Debug/net5.0/todo_clean.domain.pdb
-/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/bin/Debug/net5.0/todo_clean.infra.dll
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/bin/Debug/net5.0/todo_clean.shared.dll
-/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/bin/Debug/net5.0/todo_clean.infra.pdb
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/bin/Debug/net5.0/todo_clean.shared.pdb
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/Debug/net5.0/todo_clean.domain.csproj.CopyComplete

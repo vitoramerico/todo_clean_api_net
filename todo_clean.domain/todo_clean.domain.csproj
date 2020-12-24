@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\todo_clean.infra\todo_clean.infra.csproj" />
     <ProjectReference Include="..\todo_clean.shared\todo_clean.shared.csproj" />
   </ItemGroup>
 

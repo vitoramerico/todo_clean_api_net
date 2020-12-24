@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj": {
                 "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj"
+              },
+              "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {
+                "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj"
               }
             }
           }
@@ -105,9 +108,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {
-                "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj"
-              },
               "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj": {
                 "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj"
               }
@@ -170,6 +170,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj": {
+                "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj"
+              },
               "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj": {
                 "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj"
               }
@@ -185,6 +188,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

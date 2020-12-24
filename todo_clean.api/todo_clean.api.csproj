@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\todo_clean.domain\todo_clean.domain.csproj" />
+    <ProjectReference Include="..\todo_clean.infra\todo_clean.infra.csproj" />
   </ItemGroup>
 
 </Project>

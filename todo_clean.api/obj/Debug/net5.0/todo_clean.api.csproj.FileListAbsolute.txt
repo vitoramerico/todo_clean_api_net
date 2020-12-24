@@ -41,3 +41,12 @@
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/todo_clean.domain.pdb
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/todo_clean.infra.pdb
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/todo_clean.shared.pdb
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/DnsClient.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/MongoDB.Bson.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/MongoDB.Driver.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/MongoDB.Driver.Core.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/MongoDB.Libmongocrypt.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/SharpCompress.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/runtimes/win/native/libzstd.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/runtimes/win/native/snappy32.dll
+/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.api/bin/Debug/net5.0/runtimes/win/native/snappy64.dll

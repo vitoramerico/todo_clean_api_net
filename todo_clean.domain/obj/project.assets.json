@@ -11,19 +11,6 @@
           "lib/netstandard2.0/Flunt.dll": {}
         }
       },
-      "todo_clean.infra/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "todo_clean.shared": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/todo_clean.infra.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/todo_clean.infra.dll": {}
-        }
-      },
       "todo_clean.shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -52,11 +39,6 @@
         "lib/netstandard2.0/Flunt.dll"
       ]
     },
-    "todo_clean.infra/1.0.0": {
-      "type": "project",
-      "path": "../todo_clean.infra/todo_clean.infra.csproj",
-      "msbuildProject": "../todo_clean.infra/todo_clean.infra.csproj"
-    },
     "todo_clean.shared/1.0.0": {
       "type": "project",
       "path": "../todo_clean.shared/todo_clean.shared.csproj",
@@ -66,7 +48,6 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Flunt >= 1.0.5",
-      "todo_clean.infra >= 1.0.0",
       "todo_clean.shared >= 1.0.0"
     ]
   },
@@ -95,9 +76,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj": {
-              "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.infra/todo_clean.infra.csproj"
-            },
             "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj": {
               "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj"
             }

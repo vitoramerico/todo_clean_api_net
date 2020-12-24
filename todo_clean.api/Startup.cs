@@ -12,6 +12,11 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using todo_clean.domain.commands.handlers;
+using todo_clean.domain.repositories;
+using todo_clean.infra.context;
+using todo_clean.infra.datasorces;
+using todo_clean.infra.repositories;
+using todo_clean.shared.db;
 
 namespace todo_clean.api
 {
@@ -31,6 +36,9 @@ namespace todo_clean.api
 
             services.AddControllers();
 
+            services.AddScoped<MongoDbContext, MongoDbContext>();
+            services.AddTransient<ICustomerDataSource, CustomerDataSource>();
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<CustomerCommandHandler, CustomerCommandHandler>();
 
             services.AddSwaggerGen(c =>
@@ -59,6 +67,9 @@ namespace todo_clean.api
             {
                 endpoints.MapControllers();
             });
+
+            ConfigurationDb.connectionString = Configuration.GetSection("mongoConnection:connectionString").Value;
+            ConfigurationDb.databaseName = Configuration.GetSection("mongoConnection:database").Value;
         }
     }
 }
