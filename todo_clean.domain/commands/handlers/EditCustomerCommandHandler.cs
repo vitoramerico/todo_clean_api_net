@@ -8,21 +8,23 @@ using todo_clean.shared.commands;
 
 namespace todo_clean.domain.commands.handlers
 {
-    public class CustomerCommandHandler : Notifiable, ICommandHandler<AddCustomerCommand>
+    public class EditCustomerCommandHandler : Notifiable, ICommandHandler<EditCustomerCommand>
     {
         public readonly ICustomerRepository _customerRepository;
 
-        public CustomerCommandHandler(ICustomerRepository customerRepository)
+        public EditCustomerCommandHandler(ICustomerRepository customerRepository)
         {
             _customerRepository = customerRepository;
         }
 
-        public ICommandResult Handle(AddCustomerCommand command)
+        public ICommandResult Handle(EditCustomerCommand command)
         {
-            // Verificar se o CPF já existe
-            if (_customerRepository.checkDocumentExists(command.documentNumber))
+            var oldCustomer = _customerRepository.getById(command.id);
+
+            // Verificar se existe o cliente
+            if (oldCustomer == null)
             {
-                AddNotification("Document", "Este CPF já está em uso!");
+                AddNotification("Customer", "Cliente não encontrado");
                 return null;
             }
 
@@ -37,7 +39,14 @@ namespace todo_clean.domain.commands.handlers
                 command.addressState,
                 command.addressZipCode
             );
-            var customer = new CustomerEntity(command.name, command.birthDate, document, address, email);
+            var customer = new CustomerEntity(
+                command.name,
+                command.birthDate,
+                document,
+                address,
+                email,
+                oldCustomer.createAt,
+                id: oldCustomer.id);
 
             // Adicionar as notificação
             AddNotifications(document.Notifications);
@@ -48,17 +57,10 @@ namespace todo_clean.domain.commands.handlers
             if (this.Invalid)
                 return null;
 
-            // Inserir no banco
-            _customerRepository.save(customer);
+            // altera
+            _customerRepository.update(customer);
 
-            // Enviar E-mail de boas vindas     
-            /*_emailService.Send(
-                customer.Name.ToString(),
-                customer.Email.Address,
-                string.Format(EmailTemplates.WelcomeEmailTitle, customer.Name),
-                string.Format(EmailTemplates.WelcomeEmailBody, customer.Name));*/
-
-            return new AddCustomerCommandResult("1");
+            return new AddCustomerCommandResult(customer.id.ToString());
         }
     }
 }

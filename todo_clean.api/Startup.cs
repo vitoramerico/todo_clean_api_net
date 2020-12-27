@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using todo_clean.domain.commands.handlers;
+using todo_clean.domain.queries.handlers;
 using todo_clean.domain.repositories;
 using todo_clean.infra.context;
 using todo_clean.infra.datasorces;
@@ -39,7 +40,11 @@ namespace todo_clean.api
             services.AddScoped<MongoDbContext, MongoDbContext>();
             services.AddTransient<ICustomerDataSource, CustomerDataSource>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
-            services.AddTransient<CustomerCommandHandler, CustomerCommandHandler>();
+            services.AddTransient<AddCustomerCommandHandler, AddCustomerCommandHandler>();
+            services.AddTransient<EditCustomerCommandHandler, EditCustomerCommandHandler>();
+            services.AddTransient<GetByDocumentCustomerQueryHandler, GetByDocumentCustomerQueryHandler>();
+            services.AddTransient<GetByIdCustomerQueryHandler, GetByIdCustomerQueryHandler>();
+            services.AddTransient<GetAllCustomerQueryHandler, GetAllCustomerQueryHandler>();
 
             services.AddSwaggerGen(c =>
             {

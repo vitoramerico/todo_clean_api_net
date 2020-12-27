@@ -2,12 +2,12 @@ namespace todo_clean.api.shared.results
 {
     public class CustomSuccessResult : CustomResultBase
     {
-        public object result { get; set; } = null;
+        public object data { get; set; } = null;
 
-        public CustomSuccessResult(object result)
+        public CustomSuccessResult(object data)
         {
             this.success = true;
-            this.result = result;
+            this.data = data;
         }
     }
 }

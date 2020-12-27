@@ -52,19 +52,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/vitoramerico/.nuget/packages/": {}
+    "/home/vitoramerico/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
+      "projectUniqueName": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj",
       "projectName": "todo_clean.domain",
-      "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/todo_clean.domain.csproj",
-      "packagesPath": "/Users/vitoramerico/.nuget/packages/",
-      "outputPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.domain/obj/",
+      "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj",
+      "packagesPath": "/home/vitoramerico/.nuget/packages/",
+      "outputPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/vitoramerico/.nuget/NuGet/NuGet.Config"
+        "/home/vitoramerico/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -76,8 +76,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj": {
-              "projectPath": "/Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/todo_clean.shared.csproj"
+            "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
+              "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj"
             }
           }
         }
@@ -112,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
       }
     }
   }

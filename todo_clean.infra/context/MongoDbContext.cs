@@ -1,6 +1,6 @@
 using System;
 using MongoDB.Driver;
-using todo_clean.domain.entities;
+using todo_clean.infra.models;
 using todo_clean.shared.db;
 
 namespace todo_clean.infra.context
@@ -24,11 +24,11 @@ namespace todo_clean.infra.context
             }
         }
 
-        public IMongoCollection<CustomerEntity> Customer
+        public IMongoCollection<CustomerModel> Customer
         {
             get
             {
-                return _database.GetCollection<CustomerEntity>("customer");
+                return _database.GetCollection<CustomerModel>("customer");
             }
         }
     }

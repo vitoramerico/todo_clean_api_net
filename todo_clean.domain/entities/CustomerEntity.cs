@@ -13,7 +13,18 @@ namespace todo_clean.domain.entities
         public AddressVo address { get; private set; }
         public EmailVo email { get; private set; }
 
-        public CustomerEntity(string name, DateTime? birthDate, DocumentVo document, AddressVo address, EmailVo email)
+        public CustomerEntity(DateTime createAt, Guid? id = null) : base(createAt: createAt)
+        {
+        }
+
+        public CustomerEntity(
+            string name,
+            DateTime? birthDate,
+            DocumentVo document,
+            AddressVo address,
+            EmailVo email,
+            DateTime createAt,
+            Guid? id = null) : base(id: id, createAt: createAt)
         {
             this.name = name;
             this.birthDate = birthDate;

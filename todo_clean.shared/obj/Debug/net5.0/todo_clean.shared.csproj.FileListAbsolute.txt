@@ -10,3 +10,15 @@
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.dll
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/ref/todo_clean.shared.dll
 /Users/vitoramerico/Documents/Projetos/estudos/asp_net_core/todo_clean/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.pdb
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/bin/Debug/net5.0/todo_clean.shared.deps.json
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/bin/Debug/net5.0/todo_clean.shared.dll
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/bin/Debug/net5.0/ref/todo_clean.shared.dll
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/bin/Debug/net5.0/todo_clean.shared.pdb
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.csprojAssemblyReference.cache
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.AssemblyInfoInputs.cache
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.AssemblyInfo.cs
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.csproj.CoreCompileInputs.cache
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.dll
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/ref/todo_clean.shared.dll
+/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/Debug/net5.0/todo_clean.shared.pdb
