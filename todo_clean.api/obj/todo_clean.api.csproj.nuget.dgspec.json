@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj": {}
+    "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj": {}
   },
   "projects": {
-    "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj": {
+    "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj",
+        "projectUniqueName": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj",
         "projectName": "todo_clean.api",
-        "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj",
-        "packagesPath": "/home/vitoramerico/.nuget/packages/",
-        "outputPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.api/obj/",
+        "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.api/todo_clean.api.csproj",
+        "packagesPath": "/home/desenvolvimento/.nuget/packages/",
+        "outputPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vitoramerico/.nuget/NuGet/NuGet.Config"
+          "/home/desenvolvimento/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj": {
-                "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj"
+              "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj": {
+                "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj"
               },
-              "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj": {
-                "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj"
+              "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj": {
+                "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj"
               }
             }
           }
@@ -86,17 +86,17 @@
         }
       }
     },
-    "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj": {
+    "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj",
+        "projectUniqueName": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj",
         "projectName": "todo_clean.domain",
-        "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj",
-        "packagesPath": "/home/vitoramerico/.nuget/packages/",
-        "outputPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/obj/",
+        "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj",
+        "packagesPath": "/home/desenvolvimento/.nuget/packages/",
+        "outputPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vitoramerico/.nuget/NuGet/NuGet.Config"
+          "/home/desenvolvimento/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -108,8 +108,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
-                "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj"
+              "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
+                "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj"
               }
             }
           }
@@ -148,17 +148,17 @@
         }
       }
     },
-    "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj": {
+    "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj",
+        "projectUniqueName": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj",
         "projectName": "todo_clean.infra",
-        "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj",
-        "packagesPath": "/home/vitoramerico/.nuget/packages/",
-        "outputPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.infra/obj/",
+        "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.infra/todo_clean.infra.csproj",
+        "packagesPath": "/home/desenvolvimento/.nuget/packages/",
+        "outputPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vitoramerico/.nuget/NuGet/NuGet.Config"
+          "/home/desenvolvimento/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -170,11 +170,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj": {
-                "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj"
+              "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj": {
+                "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.domain/todo_clean.domain.csproj"
               },
-              "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
-                "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj"
+              "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
+                "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj"
               }
             }
           }
@@ -217,17 +217,17 @@
         }
       }
     },
-    "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
+    "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj",
+        "projectUniqueName": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj",
         "projectName": "todo_clean.shared",
-        "projectPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj",
-        "packagesPath": "/home/vitoramerico/.nuget/packages/",
-        "outputPath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/obj/",
+        "projectPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj",
+        "packagesPath": "/home/desenvolvimento/.nuget/packages/",
+        "outputPath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/vitoramerico/.nuget/NuGet/NuGet.Config"
+          "/home/desenvolvimento/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

@@ -5,12 +5,12 @@ namespace todo_clean.api.shared.results
 {
     public class CustomErrorResult : CustomResultBase
     {
-        public IEnumerable<Notification> data { get; set; }
+        public IEnumerable<Notification> errors { get; set; }
 
-        public CustomErrorResult(IEnumerable<Notification> data)
+        public CustomErrorResult(IEnumerable<Notification> errors)
         {
             this.success = false;
-            this.data = data;
+            this.errors = errors;
         }
     }
 }

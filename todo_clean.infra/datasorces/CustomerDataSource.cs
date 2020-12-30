@@ -45,9 +45,16 @@ namespace todo_clean.infra.datasorces
 
         public CustomerEntity getById(string id)
         {
-            var result = _context.Customer.Find<CustomerModel>(v => v.id == Guid.Parse(id)).FirstOrDefault();
+            if (Guid.TryParse(id, out var newGuid))
+            {
+                var result = _context.Customer.Find<CustomerModel>(v => v.id == newGuid).FirstOrDefault();
 
-            return _mapper.Map<CustomerEntity>(result);
+                if (result == null) return null;
+
+                return _mapper.Map<CustomerEntity>(result);
+            }
+            else
+                return null;
         }
 
         public CustomerEntity getByDocument(string documentNumber)

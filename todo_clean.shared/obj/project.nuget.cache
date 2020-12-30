@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cW1K9+7HukT6MyOTY2YEQw5gSfRwPIV3U8nwbFZwutuNSA8NrCdOaFHQAFjO1t4E8hX1hs8Lz9HNzLGw3SeJ+Q==",
+  "dgSpecHash": "r6cvjn5V9x2AOyAlbLpjBykfTscJxDuh+A/hky01rGr/3iKuunbyrOpcKZLnoJgvbHE3wo3vE1AGB150zVN4iw==",
   "success": true,
-  "projectFilePath": "/home/vitoramerico/Documentos/projetos/estudos/flutter/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj",
+  "projectFilePath": "/home/desenvolvimento/Documentos/projetos/estudos/asp_net/todo_clean_api_net/todo_clean.shared/todo_clean.shared.csproj",
   "expectedPackageFiles": [
-    "/home/vitoramerico/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512"
+    "/home/desenvolvimento/.nuget/packages/flunt/1.0.5/flunt.1.0.5.nupkg.sha512"
   ],
   "logs": []
 }

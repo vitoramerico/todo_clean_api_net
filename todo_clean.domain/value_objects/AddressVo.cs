@@ -22,10 +22,10 @@ namespace todo_clean.domain.value_objects
             this.zipCode = zipCode;
 
              AddNotifications(new Contract()
-                .IsNullOrEmpty(street, "AddressVo.street", "Rua é obrigatória")
-                .IsNullOrEmpty(neighborhood, "AddressVo.neighborhood", "Bairro é obrigatório")
-                .IsNullOrEmpty(city, "AddressVo.city", "Cidade é obrigatório")
-                .IsNullOrEmpty(state, "AddressVo.state", "Estado é obrigatório")
+                .IsNotNullOrEmpty(street, "AddressVo.street", "Rua é obrigatória")
+                .IsNotNullOrEmpty(neighborhood, "AddressVo.neighborhood", "Bairro é obrigatório")
+                .IsNotNullOrEmpty(city, "AddressVo.city", "Cidade é obrigatório")
+                .IsNotNullOrEmpty(state, "AddressVo.state", "Estado é obrigatório")
             );
         }
     }
